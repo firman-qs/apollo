@@ -1,4 +1,4 @@
-# apollo
+# apollo (Fork)
 
 Modern and minimalistic blog theme powered by [Zola](https://getzola.org). See a live preview [here](https://not-matthias.github.io/apollo).
 
@@ -40,7 +40,7 @@ Modern and minimalistic blog theme powered by [Zola](https://getzola.org). See a
 1. Download the theme
 
 ```
-git submodule add https://github.com/not-matthias/apollo themes/apollo
+git submodule add https://github.com/firman-qs/apollo themes/apollo
 ```
 
 2. Add the following to the top of your `config.toml`
@@ -58,7 +58,7 @@ menu = [
   # Configure menu bar here
 ]
 
-# See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
+# See this for more options: https://github.com/firman-qs/apollo/blob/main/config.toml#L14
 ```
 
 3. Copy the example content
