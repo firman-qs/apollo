@@ -16,9 +16,9 @@
   --border-color: var(--border-color);
 
   /* Fonts */
-  --font-size-base: 13.5px;
+  --font-size-base: 18.0px;
   --mono-text-font: "Jetbrains Mono";
-  --text-font: "ZedTextFtl";
+  --text-font: "LmSansFtl";
   --header-font: "ZedDisplayFtl" "Space Grotesk", "Helvetica", sans-serif;
   --code-font: "Jetbrains Mono";
 
@@ -31,15 +31,18 @@ html {
   color: var(--text-0);
   font-family: var(--text-font);
   line-height: var(--line-height);
+  font-size: var(--font-size-base);
 
   @media (max-width: 992px) {
     font-size: calc(var(--font-size-base) * 0.97);
   }
+
   @media (max-width: 768px) {
-      font-size: calc(var(--font-size-base) * 0.95);
+    font-size: calc(var(--font-size-base) * 0.95);
   }
+
   @media (max-width: 576px) {
-      font-size: calc(var(--font-size-base) * 0.92);
+    font-size: calc(var(--font-size-base) * 0.92);
   }
 }
 
@@ -82,13 +85,13 @@ body {
       flex: 1 1 0;
       min-width: 0;
 
-    // Don't move this to the TOC, it won't work
-    // FIXME: Find a workaround
-    position: sticky;
-    top: 60px;
-    padding: 1em;
-    overflow-y: auto;
-    max-height: calc(100vh - 100px);
+      // Don't move this to the TOC, it won't work
+      // FIXME: Find a workaround
+      position: sticky;
+      top: 60px;
+      padding: 1em;
+      overflow-y: auto;
+      max-height: calc(100vh - 100px);
 
     }
 
