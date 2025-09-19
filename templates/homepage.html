@@ -17,7 +17,7 @@
     <h1>Highlighted articles</h1>
     {%
     set highlights = [
-        get_page(path="posts/hacking-on-xmonad.md"),
+        get_page(path="posts/classical-mechanics/deriving-euler-lagrange.md"),
     ]
     %}
     <main class="post-list">
@@ -27,6 +27,6 @@
     <h1>Recent articles</h1>
     <main class="post-list">
         {% set section = get_section(path="posts/_index.md") %}
-        {{ post_macros::list_posts(pages=section.pages | slice(end=5)) }}
+        {{ post_macros::list_posts(pages=section.pages | slice(end=9)) }}
     </main>
 {% endblock main_content %}
